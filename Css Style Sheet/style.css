@@ -1,0 +1,80 @@
+*
+{margin: 0;padding: 0;box-sizing: border-box;}
+html{scroll-behavior: smooth;}
+
+
+/* -------Nav Bar-------- */
+body{ font-family: sans-serif;}
+#nav-bar{ position: sticky;top: 0px; z-index: 10;}
+.navbar{background-image: linear-gradient(to right, #a517ba,#5f1782); padding: 0 !important; }
+.navbar-brand img{height: 40px; padding-left: 20px;}
+.fa-bars{color: #ffff !important;font-size: 30px !important;}
+#nav-bar ul li{ padding: 0px 10px;}
+#nav-bar ul li a{color: #ffff; font-weight: 600; font-size: 20px; text-align: right; text-transform: uppercase;}
+.navbar-toggler{ outline: none !important; border: none;}
+
+
+
+/* -------Hero Section-------- */
+#hero{background-image: linear-gradient(to right, #a517ba,#5f1782); color: #fff;}
+#hero .hero-title{color:#ffff;font-size: 34px;text-transform: uppercase;font-weight: 600; padding-top: 60px;}
+.hero-para{padding: 20px 0px;}
+.play-img img{width: 60px; padding: 0px 10px;}
+#hero .play-img a{text-decoration: none; color: #fff;}
+.wave1{padding-bottom: 0px !important;}
+
+
+
+/* -------Services Section------- */
+.main-title{font-weight: 600; font-size: 34px; padding: 20px 5px;; text-transform: uppercase;}
+.main-title::before{content:'';background: #7b1798;height: 5px;width: 200px;margin-right: auto;margin-left: auto;display: block; transform: translateY(60px);}
+.main-title::after{content:'';background: #7b1798;height: 10px;width: 50px;margin-right: auto;margin-left: auto;display: block; transform: translateY(11px);}
+#services img{height: 100px;}
+#services .btn-primary{background-color:#5f1782 !important;color: #fff;outline: none;box-shadow: none;border: none !important;padding: 10px 25px; border-radius: 20px;}
+
+
+
+/* -------About Us Section------- */
+.about-us-item{margin: 0px 10px;}
+
+
+
+/* -------Testimonial------- */
+#testimonials .user{border-left: 5px solid #7b1798 !important;}
+.users img{width: 100px;}
+.users{display: flex;}
+
+
+
+/* -------Social Section------- */
+#social-icons{background-color:#f8f9fa;padding-bottom: 60px;}
+#social-icons img{width: 80px; transition: 0.5s;}
+#social-icons img:hover{transform: translateY(-10px);}
+
+
+
+/* -------footer Section------- */
+#footer{background-image: linear-gradient(to right, #a517ba,#5f1782);}
+#footer .container{padding-top: 20px;}
+.footer-left img{height: 40px;margin-top: 0px !important;}
+.footer-left p{color: #fff; font-size: 14px; padding:20px 0px;}
+.contact-us{color: #fff;}
+#footer i{color: #fff !important; background-image: linear-gradient(to right, #a517ba,#5f1782); font-size: 20px; margin-right: 15px;padding: 10px;}
+#footer a{background-image: linear-gradient(to right, #a517ba,#5f1782);color: #fff;outline: none;box-shadow: none;border: none !important;padding: 8px 25px; border-radius: 10px;}
+hr{color: #fff;}
+#footer .created-by{color: #fff;font-weight: 600;text-align: center;text-transform: uppercase;}
+#footer .newslatter{color: #fff;text-transform: uppercase;}
+
+
+/* -------CSS media Quries------- */
+@media(max-width:469px){
+    #social-title::before{ transform: translateY(100px);}
+}
+
+@media(max-width:422px) and (min-width:0px){
+    #testimonial-title::before{ transform: translateY(100px);}
+}
+
+@media(max-width:280px){
+    .main-title::before{ transform: translateY(100px);}
+}
